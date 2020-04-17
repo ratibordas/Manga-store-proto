@@ -11,11 +11,13 @@ import {bindActionCreators} from 'redux'
 
 const BookList = ({books, onAddedToCart}) => {
  return (
-            <div className="row justify-content-center">
+     
+     
+     <div className="row justify-content-center">
                 {
                     books.map((book) => {
                         return (
-    <div key={book.id} className="col-lg-3 " ><BookListItem onAddedToCart={()=> onAddedToCart(book.id)}  book={book}/></div>
+    <div key={book.id} className="col-lg-3 mt-3" ><BookListItem onAddedToCart={()=> onAddedToCart(book.id)}  book={book}/></div>
                         )
                     })
                 }

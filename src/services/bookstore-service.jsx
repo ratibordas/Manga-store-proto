@@ -13,7 +13,37 @@ data = [
                 id: 2, title: "Any2", author: "No name2",
                 price: 200,
                 coverImage: imgforexample
-    }
+    },
+     {
+                id: 3, title: "Any2", author: "No name2",
+                price: 200,
+                coverImage: imgforexample
+    },
+      {
+                id: 4, title: "Any2", author: "No name2",
+                price: 200,
+                coverImage: imgforexample
+    },
+       {
+                id: 5, title: "Any2", author: "No name2",
+                price: 200,
+                coverImage: imgforexample
+    },
+        {
+                id: 6, title: "Any2", author: "No name2",
+                price: 200,
+                coverImage: imgforexample
+    },
+         {
+                id: 7, title: "Any2", author: "No name2",
+                price: 200,
+                coverImage: imgforexample
+    },
+          {
+                id: 8, title: "Any2", author: "No name2",
+                price: 200,
+                coverImage: imgforexample
+    },
      
           
         ];

@@ -1,7 +1,11 @@
 import React from 'react'
+import ShoppingCartTable from '../shopping-cart-table'
+
+
+
 
 const CartPage = () => {
-    return <div>Card Page</div>
+    return <ShoppingCartTable/>
 }
 
 

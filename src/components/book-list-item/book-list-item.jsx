@@ -8,10 +8,10 @@ const BookListItem = ({ book, onAddedToCart }) => {
        
            <div className="d-flex justify-content-center">
             <div className="book-cover w-50">
-                <img src={coverImage} className="img-fluid " alt="example"/>
+                <img src={coverImage} className="img-fluid" alt="example"/>
            </div>
            <div className="book-info w-50 ml-3">
-               <a href="#" className=""> {title}</a>
+                 <p> {title}</p>
                 <div className="">{author}</div> 
                 <div className="">${price}</div>
                 <button

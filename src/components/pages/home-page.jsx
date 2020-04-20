@@ -3,16 +3,9 @@ import BookList from '../book-list'
 import { Link } from 'react-router-dom'
 
 
-const HomePage = () => {
-   
-    
-    
-    
+const BooksPagination = () => {
     return (
-        <Fragment>
-            <h1 className="display-4 text-center">Welcome to the secret shop! </h1>
-            <hr/>
-              <ul className="pagination ">
+<ul className="pagination mt-4">
     <li className="page-item disabled">
       <Link className="page-link" to="/">&laquo;</Link>
     </li>
@@ -35,7 +28,24 @@ const HomePage = () => {
       <Link className="page-link" to="/">&raquo;</Link>
     </li>
   </ul>
+    )
+}
+
+
+
+
+
+const HomePage = () => {
+   
+    
+    
+    
+    return (
+        <Fragment>
+            <h1 className="display-4 text-center">Welcome to the secret shop! </h1>
+            <hr/>
             <BookList /> 
+            <BooksPagination />
         <hr/>    
         </Fragment>
         

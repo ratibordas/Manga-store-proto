@@ -11,8 +11,8 @@ const BookListItem = ({ book, onAddedToCart }) => {
                 <img src={coverImage} className="img-fluid" alt="example"/>
            </div>
            <div className="book-info w-50 ml-3">
-                 <p> {title}</p>
-                <div className="">{author}</div> 
+                 <h4> {title}</h4>
+                <p className="bool-author-text font-weight-bold display-5">{author}</p> 
                 <div className="">${price}</div>
                 <button
                     onClick={onAddedToCart}
